@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Contact details, Google map and a contact form.">
+  <meta name="author" content="Abdullah Ahmad">
+  <meta name="keywords" content="portfolio, HTML, CSS, student, Iqra University">
+  <title>Contact | Abdullah Ahmad Portfolio</title>
+  <link rel="icon" type="image/svg+xml" href="images/favicon.svg">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="nav-bar">
+      <span class="logo">Abdullah Ahmad</span>
+      <nav aria-label="Main navigation">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="hobbies.html">Hobbies</a></li>
+          <li><a href="media.html">Favourite Media</a></li>
+          <li><a href="contact.html" class="active">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section>
+      <h1>Contact Me</h1>
+    </section>
+
+    <div class="contact-grid">
+      <section>
+        <h2>My Details</h2>
+        <article>
+          <dl class="details">
+            <dt>Name</dt><dd>Abdullah Ahmad</dd>
+            <dt>Designation</dt><dd>BS(CS) Student, 6th Semester</dd>
+            <dt>Email</dt><dd><a href="mailto:45230@iqraisb.edu.pk">45230@iqraisb.edu.pk</a></dd>
+          </dl>
+        </article>
+      </section>
+
+      <section class="map-box">
+        <h2>Find Me Here</h2>
+        <iframe src="https://www.google.com/maps?q=Iqra+University+Islamabad+Campus+H-9&amp;output=embed" title="Google Map showing Iqra University Islamabad Campus H-9" loading="lazy"></iframe>
+      </section>
+    </div>
+
+    <section>
+      <h2>Send a Message</h2>
+      <article>
+        <form action="#" method="post">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" placeholder="Your full name" required>
+
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" placeholder="you@example.com" required>
+
+          <label for="message">Message</label>
+          <textarea id="message" name="message" placeholder="Write your message here" required></textarea>
+
+          <button type="submit">Send message</button>
+        </form>
+      </article>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; 2026 Abdullah Ahmad | BS(CS) 6th Semester | Iqra University, Islamabad Campus (H-9)</p>
+  </footer>
+</body>
+</html>
